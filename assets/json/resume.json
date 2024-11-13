@@ -27,8 +27,8 @@
       "name": "Ipazia spa",
       "position": "AI Scientist Intern",
       "url": "https://ipazia.com/",
-      "startDate": "15-07-2024",
-      "endDate": "08-11-2024",
+      "startDate": "2024-07-15",
+      "endDate": "2024-11-08",
       "summary": "I was involved in research activities on the effects of network sparsity and personas diversity on problem solving capabilities of agentic AI systems.",
       "highlights": ["LLMs", "Agentic AI"]
     }
@@ -40,21 +40,21 @@
       "url": "https://www.unipd.it/",
       "area": "Physics of Data",
       "studyType": "Master's Degree",
-      "startDate": "Sept. 2021",
-      "endDate": "Dec. 2024",
+      "startDate": "2021-09-27",
+      "endDate": "2024-12-04",
       "score": "3.68/4",
-      "courses": [""]
+      "courses": []
     },
     {
       "institution": "University of Padua",
       "location": "Padua, Italy",
-      "url": "https://www.unipd.it/",
+      "url": "https://hdl.handle.net/20.500.12608/46342",
       "area": "Physics",
       "studyType": "Bachelor's Degree",
-      "startDate": "Sept. 2015",
-      "endDate": "Jul. 2021",
+      "startDate": "2015-09-28",
+      "endDate": "2021-07-21",
       "score": "3.18/4",
-      "courses": [""]
+      "courses": []
     }
   ],
   "publications": [
@@ -63,98 +63,104 @@
       "publisher": "CEUR Workshop Proceedings",
       "releaseDate": "19-10-2024",
       "url": "https://ceur-ws.org/Vol-3813/4.pdf",
-      "summary": ""
+      "summary": "A deep reinforcement learning model that uses an image-like representation of the state to achieve autonomous traffic lights control at an intersection in a simulated environment. Results show that this approach reduces average waiting times and queue lengths compared to several baselines, such as a multi-layer perceptron architecture and four non-parametric models."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bone Age Prediction Using CNNs and Visual Attention - Team Project",
+      "summary": "Python, TensorFlow, Keras",
+      "highlights": ["Design and comparison of different convolutional neural network architectures for the task of bone age prediction from X-ray images.", "Best performing model obtained an accuracy of 94% over the test set."],
+      "startDate": "",
+      "endDate": "",
+      "url": "https://github.com/MontiSebastiano/HDA/tree/main"
+    },
+    {
+      "name": "Multi Track Music Generation Using GANs - Team Project",
+      "summary": "Google Cloud Platform, Python, PyTorch",
+      "highlights": ["Realization of a generative adversarial network for realistic sounding single and multi track music generation, both from scratch and conditioned on a previous sample.", "Implementation of metrics for a quantitative assessment of generated samples."],
+      "startDate": "",
+      "endDate": "",
+      "url": "https://github.com/MontiSebastiano/NNDL/tree/main"
+    },
+    {
+      "name": "K-Means Algorithms: Dask Implementation - Team Project",
+      "summary": "Dask, Docker, Python",
+      "highlights": ["Development of a parallel version of the k-means clustering algorithm using Dask on a cluster of 3 virtual machines.", "Test of the algorithm on a dataset and benchmark of cluster's parameters."],
+      "startDate": "",
+      "endDate": "",
+      "url": "https://github.com/MontiSebastiano/MAPD-B/blob/2022/Project/MAPD-B_Gr03.ipynb"
+    },
+    {
+      "name": "Bayesian Analysis of ARPAV Time Series - Team Project",
+      "summary": "R",
+      "highlights": ["Analysis of temperature and precipitation data collected in a region of Italy.", "Hypothesis tests confirmed that temperatures increase linearly, assuming a 5% level of significance and the average increase amounts in 0.26°C every 4 years.", "ARIMA was applied on precipitation data to make a forecast and linear regression on most intense events reports an increasing trend."],
+      "startDate": "",
+      "endDate": "",
+      "url": "https://github.com/MontiSebastiano/ASPA/tree/main/Project"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Python",
+      "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+        "Pandas",
+        "Numpy",
+        "Matplotlib",
+        "Scikit-learn",
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "Dask"
+    ]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "R",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": []
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "name": "C++",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": []
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "name": "MySQL",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": []
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
+      "name": "Shell scripting",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": []
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "LaTeX",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": []
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Italian",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Proficient",
+      "icon": ""
+    },
+    {
+      "language": "French",
+      "fluency": "Elementary",
       "icon": ""
     }
   ],
@@ -172,26 +178,51 @@
       ]
     }
   ],
-  "references": [
+  "volunteer": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "organization": "ADMO",
+      "location": "Treviso, Italy",
+      "position": "Bone Marrow Donor",
+      "url": "",
+      "startDate": "2023-06-01",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": []
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "organization": "Civil Protection",
+      "location": "Treviso, Italy",
+      "position": "Volunteer",
+      "url": "",
+      "startDate": "2017-12-01",
+      "endDate": "2023-11-01",
+      "summary": "",
+      "highlights": ["Distributed masks to the community during the early stage of the SARS-CoV-2 pandemic.", "Attended first aid and firefighting courses."]
     }
   ],
-  "projects": [
+  "certificates": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "",
+      "date": "",
+      "issuer": "",
+      "url": "",
+      "icon": ""
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "icon": "",
+      "reference": ""
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "url": "",
+      "summary": ""
     }
   ]
 }
