@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Sebastiano Monti",
-    "label": "Master's student in Physics of Data",
+    "label": "Master of Science in Physics of Data",
     "image": "",
-    "email": "name.surname@gmail.com",
-    "phone": "(39) 123-4567",
+    "email": "",
+    "phone": "",
     "url": "https://montisebastiano.github.io/",
-    "summary": "I am a university student interested in the intersection between physics and artificial intelligence.",
+    "summary": "I am a graduate student interested in the intersection between physics and artificial intelligence.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -28,22 +28,22 @@
       "position": "AI Scientist Intern",
       "url": "https://ipazia.com/",
       "startDate": "2024-07-15",
-      "endDate": "2024-11-08",
-      "summary": "I was involved in research activities on the effects of network sparsity and personas diversity on problem solving capabilities of agentic AI systems.",
-      "highlights": ["LLMs", "Agentic AI"]
+      "endDate": "2025-06-19",
+      "summary": "I research and develop new LLM-based agentic architectures to solve complex reasoning tasks, leveraging features such as sparse communication structures and diverse roles.",
+      "highlights": ["LLM-Agents", "Agentic AI", "LLMs"]
     }
   ],
   "education": [
     {
       "institution": "University of Padua",
       "location": "Padua, Italy",
-      "url": "https://www.unipd.it/",
+      "url": "https://hdl.handle.net/20.500.12608/78382",
       "area": "Physics of Data",
       "studyType": "Master's Degree",
       "startDate": "2021-09-27",
-      "endDate": "2024-12-04",
-      "score": "3.68/4",
-      "courses": []
+      "endDate": "2024-12-06",
+      "score": "3.95/4",
+      "courses": ["Machine Learning", "Neural Networks and Deep Learning", "Reinforcement Learning", "Advanced Statistics for Physics Analysis", "Financial Mathematics for Data Science", "Models of Theoretical Physics", "Information Theory and Inference", "Laboratory of Computational Physics", "Quantum Information and Computing", "Management and Analysis of Physics Datasets", "Vision and Cognitive Systems", "Game Theory", "Human Data Analytics"]
     },
     {
       "institution": "University of Padua",
@@ -112,7 +112,6 @@
         "Scikit-learn",
         "PyTorch",
         "TensorFlow",
-        "Keras",
         "Dask"
     ]
     },
@@ -166,15 +165,28 @@
   ],
   "interests": [
     {
+      "name": "Data Science",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Machine Learning",
+        "Deep Learning",
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Finance",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Quantitative Finance",
+        "Personal Finance"
+      ]
+    },
+    {
       "name": "Physics",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Statistical Mechanics",
+        "Physics of Complex Systems"
       ]
     }
   ],
