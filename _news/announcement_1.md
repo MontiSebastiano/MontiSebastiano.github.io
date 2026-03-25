@@ -1,8 +1,11 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+title: IpaziaHPA 1° on the BrowserGym Leaderboard
+date: 2026-03-07 00:38:28-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+IpaziaHPA + Gemini 3 Flash Preview reaches the first place on the BrowserGym Leaderboard for WorkArena-L1.
+
+The full article about this achievement can be found [here](https://ipazia.com/workarena/). 
