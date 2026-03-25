@@ -1,20 +1,18 @@
 ---
 layout: post
-title: SokoBench - Evaluating Long-Horizon Planning and Reasoning in Large Language Models
+title: Can Reasoning Models Actually Plan? A study on Sokoban linear corridors.
 date: 2026-01-28 16:00:00-0400
 inline: false
 related_posts: false
 ---
 
-# Can Reasoning Models Actually Plan? A study on Sokoban linear corridors
-
 As we continue to push the boundaries of Large Reasoning Models (LRMs), there is a common assumption that allocating more thinking tokens automatically translates to better planning. 
 However, our latest research suggests there is a "wall" that even the most advanced models are hitting. 
 
-In our new paper, **SokoBench**, we evaluated the long-horizon planning capabilities of state-of-the-art models using the classic puzzle game Sokoban. 
+In our new paper, [**SokoBench**](https://arxiv.org/abs/2601.20856), we evaluated the long-horizon planning capabilities of state-of-the-art models using the classic puzzle game Sokoban. 
 In this game, a player must navigate a two-dimensional, spatially constrained environment to push boxes onto predefined goal locations.
 
-## The "Strawberry" Problem of Spatial Planning
+### The "Strawberry" Problem of Spatial Planning
 
 To truly understand where planning breaks down, we moved away from complex maps and multi-box puzzles. 
 Instead, we designed a benchmark using **simplified Sokoban puzzles** consisting of vertical and horizontal linear corridors of variable lengths. 
@@ -25,7 +23,7 @@ If these models can reason on complex logic puzzles, they should easily be able 
 
 Not exactly.
 
-## The 25-Move Wall
+### The 25-Move Wall
 
 Our findings revealed a consistent and sharp degradation in performance as soon as a solution required more than **25-30 moves**. 
 Even though the task is trivial for a human, LRMs exhibit a "counting drift" where they lose track of the internal state.
@@ -34,7 +32,7 @@ We observed two distinct failure modes:
 - **Wandering**: Instead of following a systematic plan, models often "wander" within the solution space, repeating the same actions or reasoning steps until they reach their token limit.
 - **Invalid Exploration**: Models sometimes walk through walls, showing that their internal representation of the game's physics is structurally incoherent.
 
-## Can External Tools Fix It?
+### Can External Tools Fix It?
 
 We also tested an **LLM-Modulo** framework, equipping models with external **PDDL** (Planning Domain Definition Language) parsers, verifiers and solvers. 
 While this eliminated the risk of performing invalid moves, it still did not solve the underlying issue.
@@ -42,7 +40,7 @@ While this eliminated the risk of performing invalid moves, it still did not sol
 The models struggled to accurately translate the Sokoban corridors into correct PDDL problems due to their limited counting abilities.
 Even with PDDL tools, the performance boost was modest; particularly in **vertical corridors**, which seemed to be more challenging compared to horizontal ones.
 
-## Why This Matters
+### Why This Matters
 
 Our study suggests that current failures in spatial planning aren't just a matter of complexity; they are about a **deficiency in basic symbolic operations** like counting and state-tracking. 
 
